@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+</head>
+<script>
+    function minhaFuncao() {
+        let elemento = document.getElementById("p1");
+        elemento.innerHTML = "OI VOCÊ ESTÁ APRENDENDO JAVASCRIPT" + ", VAMOS PRATICAR O EVENTO DOM?";
+    }
+</script>
+
+<body>
+
+    <center>
+        <h1 onmouseouver = "style.color = 'red'" onmouseout = "style.color = 'black'">
+            Olá mundo JS!
+        </h1>
+    </center>
+
+    <p>Oi você está aprendendo JavaScript.</p>
+    <p>vamos praticar o evento DOM?</p>
+
+    <button onclick="minhaFuncao()">clicar aqui</button>
+
+    <p id="p1"></p>
+    <p id="p2"></p>
+
+</body>
+
+</html>
